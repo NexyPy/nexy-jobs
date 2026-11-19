@@ -19,6 +19,12 @@ with the database the project already has and grows to Redis when the load asks 
 | Workers | started by `nexy dev` and `nexy start`, or alone with `nx jobs` |
 | Visibility | a dev page listing queued, running and failed jobs |
 
+## Branches and releases
+
+`develop` is the integration branch. Work branches start from `develop` and target `develop`.
+`main` receives reviewed merges and release commits. The release workflow is prepared but dormant
+until this module has a package to publish. See `docs/release-setup.md` for the registry setup.
+
 ## Status
 
 Design phase. Nothing is published yet.
